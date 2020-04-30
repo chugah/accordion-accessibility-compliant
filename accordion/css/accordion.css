@@ -1,0 +1,440 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #6a2d91;    
+    font-weight: 600;
+}
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 500px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width: 320px) {
+    h2 {
+        font-size: 0.65rem;
+    }
+}
+
+@media (min-width: 500px) {
+    h2 {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px) {
+    h2 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+.intro-padding {
+    padding: 2.5% 7%;
+}
+
+.intro-para {
+    font-weight: 400;
+}
+
+@media (min-width: 320px) {
+    .intro-para {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .intro-para {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .intro-para {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro-para {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .intro-para {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .intro-para {
+        font-size: 1.2rem;
+    }
+}
+
+.intro-amazon {
+    background-color: #ededed;
+}
+
+.accordion {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
+.accordion h3 {
+    margin: 0;
+    padding: 0;
+}
+  
+.accordion-trigger {
+    background: none;
+    color: hsl(0, 0%, 13%);
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0.5%;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    outline: none;
+}
+  
+.accordion *:first-child .accordion-trigger {
+    border-radius: 5px 5px 0 0;
+}
+  
+button {
+    border-style: none;
+}
+  
+.accordion button::-moz-focus-inner {
+    border: 0;
+}
+  
+.accordion-title {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    pointer-events: none;
+    border: transparent 2px solid;
+    border-radius: 5px;
+    padding: 0.25em;
+    outline: none;
+}
+
+@media (max-width: 767.98px) {
+    .accordion-title {
+        font-size: 0.85rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .accordion-title {
+        font-size: 0.6rem !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .accordion-title {
+        font-size: 0.5rem !important;
+    }
+}
+
+.accordion-icon {
+    border: 1px solid#fff;
+    border-width: 0 2px 2px 0;
+    height: 0.75rem;
+    pointer-events: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-60%) rotate(45deg);
+    width: 0.75rem;
+}
+
+@media (max-width: 500px) {
+    .accordion-icon {
+        height: 0.4rem !important;
+        width: 0.4rem !important;
+    }
+}
+  
+.accordion-trigger[aria-expanded="true"] .accordion-icon {
+    transform: translateY(-50%) rotate(-135deg);
+}
+  
+.accordion-panel {
+    margin: 0;
+    padding: 0 1rem;
+}
+  
+.accordion-panel[hidden] {
+    display: none;
+}
+
+.first-heading, .fourth-heading {
+    background-color: #6a2d91;
+}
+
+.second-heading, .fifth-heading {
+    background-color: #b484bb;
+}
+
+.third-heading {
+    background-color: #975ca6;
+}
+
+.accordion-body__heading {
+    color: #6a2d91;
+    font-weight: 600;
+}
+
+.accordion-body__text-padding {
+    padding: 0 8% 0 0;
+}
+
+@media (min-width: 320px) {
+    .accordion-body__heading {
+        font-size: 0.5rem;
+    }
+
+    .accordion-body__text {
+        font-size: 0.35rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.3rem;
+    }
+}
+
+@media (min-width: 360px) {
+    .accordion-body__heading {
+        font-size: 0.65rem;
+    }
+
+    .accordion-body__text {
+        font-size: 0.45rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.4rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .accordion-body__heading {
+        font-size: 0.75rem;
+    }
+
+    .accordion-body__text {
+        font-size: 0.55rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.45rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .accordion-body__heading {
+        font-size: 0.8rem;
+    }
+
+    .accordion-body__text {
+        font-size: 0.6rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .accordion-body__heading {
+        font-size: 1rem;
+    }
+
+    .accordion-body__text {
+        font-size: 0.8rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.55rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion-body__heading {
+        font-size: 1.2rem;
+    }
+
+    .accordion-body__text {
+        font-size: 1rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.65rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .accordion-body__heading {
+        font-size: 1.5rem;
+    }
+
+    .accordion-body__text {
+        font-size: 1rem;
+    }
+
+    .accordion-body__disclaimer-text {
+        font-size: 0.75rem;
+    }
+}
+
+.odd-section {
+    background-color: #fafafa;
+}
+
+.even-section {
+    background-color: #ededed;
+}
+
+.amazon {
+    color: #000;
+    text-decoration: underline;
+}
+
+.cta-text {
+    color: #fff;
+    font-weight: 600;
+}
+
+@media (min-width: 320px) {
+    .cta-text {
+        font-size: 0.65rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .cta-text {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .cta-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .cta-text {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .cta-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cta-text {
+        font-size: 1.5rem;
+    }
+}
+
+.cta-text__underline {
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) {
+    .footer-disclaimer {
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .footer-disclaimer {
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer-disclaimer {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-disclaimer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-disclaimer {
+        font-size: 0.9rem;
+    }
+}
